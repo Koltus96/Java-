@@ -5,7 +5,7 @@ public class Championship {
 
         int gryffindor = 400;    //gryffindor points
         int ravenclaw = 200;    //ravenclaw points
-        int margin = gryffindor -= ravenclaw;
+        int margin = gryffindor - ravenclaw;
 
         if (margin > 300){
             System.out.println("First place");
